@@ -8,7 +8,7 @@ import Logo from './Logo'
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
     const nameArray = ['p', 'o', 't','i' ]
-    const jobArray = ['S', 'o', 'f', 't', 'w', 'a', 'r', 'e', ' ', 'D', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r', '.']
+    const jobArray = [ 'D', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r', 's', '.']
     
   /*  useEffect(() => {
         return setTimeout(() => {
@@ -22,8 +22,12 @@ const Home = () => {
                 <span className={letterClass}>H</span>
                 <span className={`${letterClass} _12`}>i</span>
                 <br />
-                <span className={`${letterClass} _13`}>I</span>
-                <span className={`${letterClass} _14`}>'m</span>
+                <span className={`${letterClass} _13`}>w</span>
+                <span className={`${letterClass} _14`}>e</span>
+                <span className={`${letterClass} _15`}> </span>
+                <span className={`${letterClass} _16`}>a</span>
+                <span className={`${letterClass} _17`}>r</span>
+                <span className={`${letterClass} _18`}>e</span>
                 <img src={LogoTitle} alt="developer" />
                 <AnimatedLetters letterClass={letterClass}
                 strArray={nameArray}
@@ -33,8 +37,8 @@ const Home = () => {
                 strArray={jobArray}
                 idx={17} />
                 </h1>
-                <h2>Frontend Developer / OOP Expert / Game Developer</h2>
-                <Link to="/contact" className='flat-button'>CONTACT ME</Link>
+                <h2>Fullstack web developers / IT Services / Cyber Security</h2>
+                <Link to="/contact" className='flat-button'>CONTACT US</Link>
             </div>
             <Logo />
         </div>
